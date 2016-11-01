@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Personal website of Rizchel Dayao",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss public/scss/styles.scss public/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "author": "Rizchel Dayao",
+  "license": "ISC",
+  "devDependencies": {
+    "google-font": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.10.2"
+  }
+}

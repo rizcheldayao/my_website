@@ -1,0 +1,200 @@
+@import "variables.scss";
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+@import 'https://fonts.googleapis.com/css?family=Muli';
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@import 'http://fonts.googleapis.com/css?family=Arizonia';
+@import 'http://fonts.googleapis.com/css?family=Great+Vibes';
+a {
+  text-decoration: none;
+}
+a svg:hover #Double_Chevron_Down {
+  fill: $grey;
+}
+span {
+  font-size: 0.5em;
+  color: $grey;
+  margin-bottom: 1em;
+}
+/* styles for all of navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1em;
+  position: relative;
+  .navbar-nav {
+    list-style-type: none;
+    display: -webkit-flex;
+    display: flex;
+    .nav-item {
+      text-decoration: none;
+      font-family: $muli;
+      padding: 1em;
+      color: $grey;
+    }
+  }
+}
+
+/* styles for all of page */
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* styles for all of home section */
+.section-home {
+  background-color: #F3B6A4;
+  color: $white;
+  padding: 11em 2em;
+  height: auto;
+  min-width: 100%;
+  width: auto;
+  position: static;
+  margin: 0 -0.5em;
+  opacity: 0.9;
+  .home-information {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile-photo {
+    opacity: 1;
+    border-radius: 50%;
+    border: solid;
+  }
+  .name {
+    font-size: 4rem;
+    font-family: $great-vibes;
+  }
+  .roles {
+    font-size: 1.5rem;
+    font-family: $playfair-display;
+    color: $grey;
+  }
+  .intro-button {
+    margin-top: 1em;
+  }
+}
+/* styles for all of about section */
+.section-about {
+  margin: 10em 1em;
+  display: flex;
+  .aboutme,
+  .designer,
+  .developer {
+    margin: 1em;
+    width: 25%;
+    background-color: #C5D9CE;
+    opacity: 0.6;
+    &:hover {
+      box-shadow: 0 18px 32px rgba(0,0,0,0.25), 0 12px 12px rgba(0,0,0,0.22);
+      opacity: 0.75;
+      .container,
+      .svg-icon {
+      }
+    }
+    .svg-icon {
+      display: flex;
+      margin: 2em 1em 1em 0.5em;
+      justify-content: center;
+    }
+  }
+  .container {
+    font-family: $playfair-display;
+    padding: 1em;
+    color: $grey;
+  }
+  .title {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+  }
+  .content {
+    padding: 1em 0;
+  }
+}
+/* styles for all of experience section */
+.section-experiment {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  min-width: 100%;
+  margin: 5em -2.5em 0 -0.5em;
+}
+.experience-1,
+.experience-2,
+.experience-3,
+.experience-4,
+.experience-5,
+.experience-6 {
+  background-color: $peach;
+  width: 33%;
+  height: 200px;
+  // opacity: 0.9;
+  border: 1px solid $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $playfair-display;
+  color: $white;
+  font-size: 2em;
+  &:hover {
+    .experience-button {
+      visibility: visible;
+      padding: 1em 2em;
+      color: $white;
+      border: 2px solid $white;
+      border-radius: 5px;
+      background: transparent;
+      // opacity: 0.8;
+      font-size: 0.75rem;
+      animation-name: slideUp;
+      -webkit-animation-name: slideUp;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      animation-timing-function: ease;
+      -webkit-animation-timing-function: ease;
+      &:hover {
+        color: $grey;
+        border: 2px solid $grey;
+        // opacity: 0.9;
+      }
+    }
+  }
+}
+.experience-button {
+  visibility: hidden;
+}
+
+/* styles for all of footer */
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  width: auto;
+  background-color: #C5D9CE;
+  margin: 10em -0.5em 0 -0.5em;
+  height: auto;
+  box-shadow: 0px 5px 0px 5px #C5D9CE;
+  }
+
+  .createdby {
+    font-family: $playfair-display;
+    color: $grey;
+    font-size: 1rem;
+    margin: 2em 2em 0 2em;
+  }
+
+  .contact, .icons {
+    font-family: $playfair-display;
+    color: $grey;
+    font-size: 1rem;
+    margin: 0.5em 2em 0 2em;
+  }
+
+.icons {
+  padding-bottom: 2em;
+}
