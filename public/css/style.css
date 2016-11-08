@@ -1,0 +1,205 @@
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+@import 'https://fonts.googleapis.com/css?family=Muli';
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@import 'http://fonts.googleapis.com/css?family=Arizonia';
+@import 'http://fonts.googleapis.com/css?family=Great+Vibes';
+/*General styles*/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+
+a svg:hover #Double_Chevron_Down {
+  fill: #8D9191; }
+
+span {
+  font-size: 0.5em;
+  color: #8D9191;
+  margin-bottom: 1em; }
+
+/* styles for all of navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1em;
+  position: relative; }
+  .navbar .navbar-nav {
+    list-style-type: none;
+    display: -webkit-flex;
+    display: flex; }
+    .navbar .navbar-nav .nav-item {
+      text-decoration: none;
+      font-family: "Muli", sans-serif;
+      padding: 1em;
+      color: #8D9191; }
+
+/* styles for all of page */
+.main {
+  display: flex;
+  flex-direction: column; }
+
+/* styles for all of home section */
+.section-home {
+  background-color: #F3B6A4;
+  color: #fff;
+  height: auto;
+  min-width: 100%;
+  width: auto;
+  position: relative;
+  padding: 9em 2em;
+  margin-bottom: 2em; }
+  .section-home .home-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em; }
+  .section-home .profile-photo {
+    opacity: 1;
+    border-radius: 50%;
+    border: solid; }
+  .section-home .name {
+    font-size: 4rem;
+    font-family: "Great Vibes", Helvetica, sans-serif; }
+  .section-home .roles {
+    font-size: 1.5rem;
+    font-family: "Playfair Display", serif;
+    color: #8D9191; }
+  .section-home .intro-button {
+    margin-top: 1em; }
+
+/* styles for all of about section */
+.section-about {
+  padding: 8em 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative; }
+  .section-about .aboutme,
+  .section-about .designer,
+  .section-about .developer,
+  .section-about .engineer {
+    margin: 1em;
+    width: 300px;
+    background-color: #C5D9CE;
+    opacity: 0.65; }
+    .section-about .aboutme:hover,
+    .section-about .designer:hover,
+    .section-about .developer:hover,
+    .section-about .engineer:hover {
+      box-shadow: 0 18px 32px rgba(0, 0, 0, 0.25), 0 12px 12px rgba(0, 0, 0, 0.22);
+      opacity: 0.9; }
+    .section-about .aboutme .svg-icon,
+    .section-about .designer .svg-icon,
+    .section-about .developer .svg-icon,
+    .section-about .engineer .svg-icon {
+      display: flex;
+      justify-content: center;
+      margin: 2em 0 1em 0; }
+  .section-about .container {
+    font-family: "Playfair Display", serif;
+    padding: 1em;
+    color: #8D9191; }
+  .section-about .title {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 900; }
+  .section-about .content {
+    padding: 1em 0; }
+
+/* styles for all of experience section */
+.section-experiment {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 3em 0 2em 0; }
+
+.experience-1,
+.experience-2,
+.experience-3,
+.experience-4,
+.experience-5,
+.experience-6 {
+  background-color: #F3B6A4;
+  width: 33%;
+  height: 200px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 2em; }
+  .experience-1:hover .experience-button,
+  .experience-2:hover .experience-button,
+  .experience-3:hover .experience-button,
+  .experience-4:hover .experience-button,
+  .experience-5:hover .experience-button,
+  .experience-6:hover .experience-button {
+    visibility: visible;
+    padding: 1em 2em;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 0.75rem;
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease; }
+    .experience-1:hover .experience-button:hover,
+    .experience-2:hover .experience-button:hover,
+    .experience-3:hover .experience-button:hover,
+    .experience-4:hover .experience-button:hover,
+    .experience-5:hover .experience-button:hover,
+    .experience-6:hover .experience-button:hover {
+      color: #8D9191;
+      border: 2px solid #8D9191; }
+
+.experience-button {
+  visibility: hidden; }
+
+@media (max-width: 600px) {
+  .experience-1,
+  .experience-2,
+  .experience-3,
+  .experience-4,
+  .experience-5,
+  .experience-6 {
+    width: 100%; } }
+
+/* styles for all of footer */
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  width: auto;
+  background-color: #C5D9CE;
+  margin: 10em 0 0 0;
+  height: auto; }
+
+.createdby {
+  font-family: "Playfair Display", serif;
+  color: #8D9191;
+  font-size: 1rem;
+  margin: 2em 0 0 2em; }
+
+.contact, .icons {
+  font-family: "Playfair Display", serif;
+  color: #8D9191;
+  font-size: 1rem;
+  margin: 0.5em 0 0 2em; }
+
+.icons {
+  padding-bottom: 2em; }
