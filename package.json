@@ -16,6 +16,7 @@
   "devDependencies": {
     "google-font": "^1.0.1",
     "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-sass": "^2.3.2",
     "node-sass": "^3.10.1",
     "nodemon": "^1.10.2"
