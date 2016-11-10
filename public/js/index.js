@@ -16,9 +16,8 @@ function getSite(val) {
       window.open('https://github.com/rizcheldayao/api-project');
       break;
     case 'resume':
-      window.open('public/views/Rizchel_Resume.html');
+      window.open('https://www.linkedin.com/in/rizchel-dayao-425a3243');
       break;
-
     default:
       return;
   }
