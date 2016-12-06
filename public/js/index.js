@@ -16,7 +16,7 @@ function getSite(val) {
       window.open('https://github.com/rizcheldayao/api-project');
       break;
     case 'resume':
-      window.open('https://www.linkedin.com/in/rizchel-dayao-425a3243');
+      window.open('https://rizcheldayao.github.io/Resume/Resume.html');
       break;
     default:
       return;
