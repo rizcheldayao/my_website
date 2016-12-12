@@ -15,8 +15,8 @@ function getSite(val) {
     case 'api':
       window.open('https://github.com/rizcheldayao/api-project');
       break;
-    case 'resume':
-      window.open('https://www.linkedin.com/in/rizchel-dayao-425a3243');
+    case 'hackademy':
+      window.open('https://ha12--four4now.mybluemix.net');
       break;
     default:
       return;
