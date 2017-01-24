@@ -6,8 +6,8 @@ function getSite(val) {
     case 'website':
       window.open('https://github.com/rizcheldayao/personal-website');
       break;
-    case 'babel':
-      window.open('https://github.com/rizcheldayao/babel_setup');
+    case 'javascript':
+      window.open('http://codepen.io/rizcheldayao/pen/ZLGede');
       break;
     case 'react':
       window.open('http://codepen.io/rizcheldayao/pen/jVPPPR?editors=1010');
