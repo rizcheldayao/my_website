@@ -7,10 +7,10 @@ function getSite(val) {
       window.open('https://github.com/rizcheldayao/personal-website');
       break;
     case 'javascript':
-      window.open('http://codepen.io/rizcheldayao/pen/ZLGede');
+      window.open('http://codepen.io/rizcheldayao/full/ZLGede/');
       break;
     case 'react':
-      window.open('http://codepen.io/rizcheldayao/pen/jVPPPR?editors=1010');
+      window.open('http://codepen.io/rizcheldayao/full/jVPPPR/');
       break;
     case 'api':
       window.open('https://github.com/rizcheldayao/api-project');
