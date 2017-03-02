@@ -15,8 +15,8 @@ function getSite(val) {
     case 'api':
       window.open('https://github.com/rizcheldayao/api-project');
       break;
-    case 'hackademy':
-      window.open('https://ha12--four4now.mybluemix.net');
+    case 'react-redux':
+      window.open('https://github.com/rizcheldayao/react-redux-api-example');
       break;
     default:
       return;
