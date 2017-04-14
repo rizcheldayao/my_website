@@ -1,3 +1,6 @@
+const nav = document.querySelector('.navbar');
+const topOfNav = nav.offsetTop;
+
 function getSite(val) {
   switch (val) {
     case 'blog':
