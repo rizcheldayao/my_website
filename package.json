@@ -4,7 +4,7 @@
   "description": "Personal website of Rizchel Dayao",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss public/scss/styles.scss public/css/style.css",
+    "build-css": "node-sass --include-path scss src/scss/styles.scss src/css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "start": "nodemon app.js"
   },

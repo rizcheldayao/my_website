@@ -10,7 +10,7 @@ function getSite(val) {
       window.open('http://codepen.io/rizcheldayao/full/ZLGede/');
       break;
     case 'react':
-      window.open('http://codepen.io/rizcheldayao/full/jVPPPR/');
+      window.open('https://github.com/rizcheldayao/react-location-api-example');
       break;
     case 'api':
       window.open('https://github.com/rizcheldayao/api-project');

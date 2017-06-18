@@ -3,7 +3,7 @@ var app = express();
 var router = express.Router();
 var path = __dirname + '/';
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/src'));
 
 router.use(function (req,res,next) {
   console.log("/" + req.method);
