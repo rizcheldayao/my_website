@@ -13,7 +13,7 @@ function getSite(val) {
       window.open('https://github.com/rizcheldayao/react-location-api-example');
       break;
     case 'api':
-      window.open('https://github.com/rizcheldayao/api-project');
+      window.open('https://github.com/rizcheldayao/anagramsAPI');
       break;
     case 'react-redux':
       window.open('https://github.com/rizcheldayao/react-redux-api-example');
