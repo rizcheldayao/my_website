@@ -1,7 +1,7 @@
 function getSite(val) {
   switch (val) {
     case 'blog':
-      window.open('hhttps://medium.com/@rizchel.a.dayao');
+      window.open('https://medium.com/@rizchel.a.dayao');
       break;
     case 'website':
       window.open('https://github.com/rizcheldayao/personal-website');
