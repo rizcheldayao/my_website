@@ -138,7 +138,8 @@ span {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  padding: 3em 0 2em;
+  margin: 3em 0 2em;
+  background-color: $peach;
 }
 .experience-1,
 .experience-2,
