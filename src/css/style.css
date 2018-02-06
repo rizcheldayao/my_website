@@ -126,7 +126,16 @@ span {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  padding: 3em 0 2em; }
+  margin: 3em 0 2em;
+  background-color: #F3B6A4; }
+
+.experience-1,
+.experience-4 {
+  border-left: none; }
+
+.experience-3,
+.experience-6 {
+  border-right: none; }
 
 .experience-1,
 .experience-2,
@@ -145,7 +154,8 @@ span {
   align-items: center;
   font-family: "Playfair Display", serif;
   color: #fff;
-  font-size: 2em; }
+  font-size: 2em;
+  text-align: center; }
   .experience-1:hover .experience-button,
   .experience-2:hover .experience-button,
   .experience-3:hover .experience-button,
@@ -184,7 +194,9 @@ span {
   .experience-4,
   .experience-5,
   .experience-6 {
-    width: 100%; } }
+    width: 100%;
+    border-right: none;
+    border-left: none; } }
 
 /* styles for all of footer */
 .section-contact {
