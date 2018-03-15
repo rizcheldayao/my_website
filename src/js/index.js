@@ -16,7 +16,7 @@ function getSite(val) {
       window.open('https://github.com/rizcheldayao/anagramsAPI');
       break;
     case 'react-redux':
-      window.open('https://github.com/rizcheldayao/react-redux-api-example');
+      window.open('https://github.com/IBM/deploy-react-kubernetes');
       break;
     default:
       return;
