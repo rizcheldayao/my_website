@@ -7,7 +7,7 @@ function getSite(val) {
       window.open('https://github.com/rizcheldayao/personal-website');
       break;
     case 'javascript':
-      window.open('http://codepen.io/rizcheldayao/full/ZLGede/');
+      window.open('https://twobecomewood.com/');
       break;
     case 'react':
       window.open('https://github.com/rizcheldayao/react-location-api-example');
