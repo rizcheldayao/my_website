@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "Personal website of Rizchel Dayao",
+  "description": "Personal website of Rizchel Wood",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss src/scss/styles.scss src/css/style.css",
@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "latest"
   },
-  "author": "Rizchel Dayao",
+  "author": "Rizchel Wood",
   "license": "ISC",
   "devDependencies": {
     "google-font": "^1.0.1",
