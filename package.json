@@ -17,7 +17,7 @@
     "google-font": "^1.0.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
-    "node-sass": "^3.10.1",
+    "node-sass": "^4.14.1",
     "nodemon": "^1.10.2"
   }
 }
